@@ -5,6 +5,6 @@ console.log(Downloader)
 let downloader = new Downloader(true);
 
 (async()=>{
-let filename = await downloader.download('1563964779974246400', '/home/svena/develop/wallets/twtivid/download/');
+let filename = await downloader.download('1563964779974246400', '/home/sven/apps/twitterdl/download/');
 	console.log(filename)
 })()
